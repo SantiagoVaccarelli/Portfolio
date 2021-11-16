@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2b2c28;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: fixed;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul li {
+  margin: 1rem 5rem;
+}
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7de2d1;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+#home {
+  background-color: #339989;
+  color: #fffafb;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+#home .presentation {
+  display: grid;
+  grid-gap: 1.5rem;
+  border-left: 10px solid #7de2d1;
+  padding-left: 3rem;
+  height: 30vh;
+}
+#home .presentation h1 {
+  font-size: 6rem;
+  letter-spacing: 25px;
+}
+#home .presentation h1 span {
+  letter-spacing: 5px;
+}
+#home .presentation h2 {
+  font-size: 2rem;
+}
+#home .profile-pic {
+  height: 50vh;
+  border-radius: 25%;
+}
+#home > * {
+  margin: 0 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

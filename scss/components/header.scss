@@ -1,0 +1,25 @@
+header {
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: fixed;
+    
+    ul{
+        list-style: none;
+        display: flex;
+
+        li{
+            margin: 1rem 5rem;
+
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $primary-color;
+                font-weight: 700;
+                font-size: 1rem;
+                padding: 0.5rem;
+            }
+        }
+    }
+}
